@@ -13,8 +13,8 @@ function StudentOrg() {
       These organizations also create safe spaces and more relaxed environments from the typical classroom spaces.
       </p>
       </h1>
-      <h2>
-        <iframe class="visual" height="400px" width="500px" src="https://involvement.uic.edu/student-organizations/"/>
+      <h2 id='sitePrev'>
+        <iframe class="visual" height="400px" width="500px" src="https://ahs.uic.edu/events"/>
       </h2>
     </div>
   )
