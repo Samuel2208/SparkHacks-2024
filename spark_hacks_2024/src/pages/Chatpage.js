@@ -71,7 +71,7 @@ const Chatbot = () => {
           const sectionMessage = `You can find our ${matchedKeyword.keyword} in the '${matchedKeyword.section}' section.`;
           addMessage({ text: sectionMessage, sender: 'bot', time: getCurrentTime() });
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
-      } else if (userMessage.toLowerCase().includes('hi') || userMessage.toLowerCase().includes('hello')) {
+      } else if (userMessage.toLowerCase().includes('hello')) {
         // If the user's message contains a greeting, respond after a delay
         setTimeout(() => {
           const greetings = [
