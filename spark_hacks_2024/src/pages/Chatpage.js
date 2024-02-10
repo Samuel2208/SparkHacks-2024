@@ -118,7 +118,7 @@ const Chatbot = () => {
       else if (userMessage.includes("CS") && userMessage.toLowerCase().includes("clubs")) {
         // If the user's message contains a greeting, respond after a delay
         setTimeout(() => {
-          const sports = "Some of UIC's Computer Science organizations include ACM, LUG, SHPE, and WICS.";
+          const sports = "Some of UIC's Computer Science organizations include ACM, LUG, Logica, SHPE, and WICS.";
           addMessage({ text: sports, sender: 'bot', time: getCurrentTime() });
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
       }
