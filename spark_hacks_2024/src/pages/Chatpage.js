@@ -55,6 +55,7 @@ const Chatbot = () => {
         {keyword: 'contact', section: 'Contact Us'},
         {keyword: 'services', section: 'Services'},
         {keyword: 'about', section: 'About Us'},
+        {keyword: 'info', section: 'About Us'},
 
         /* 
         Keywords Jesus:
