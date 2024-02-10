@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import './ContactUs.css'
-import './index.css'
+import './modal.css'
 import emailjs from '@emailjs/browser';
 
 function Contact() {
