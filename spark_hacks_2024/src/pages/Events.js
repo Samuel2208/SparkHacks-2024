@@ -16,6 +16,9 @@ function Events() {
         the website where you can meet and interact 
         with other classmate in your school  </p>
     </h1>
+    <h2 id='sitePrev'>
+        <iframe class="visual" height="400px" width="500px" src="https://today.uic.edu/events/"/>
+      </h2>
     </div>
   )
 }
