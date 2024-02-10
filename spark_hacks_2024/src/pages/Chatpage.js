@@ -44,6 +44,7 @@ const Chatbot = () => {
         { keyword: 'discord', section: 'Contact Us' },
         { keyword: 'instagram', section: 'Contact Us' },
         {keyword: 'linkedin', section: 'Contact Us'},
+        {keyword: 'LinkedIn', section: 'Contact Us'},
         {keyword: 'socials', section: 'Contact Us'},
         { keyword: 'news', section: 'News' },
         { keyword: 'mentoring', section: 'Mentoring/Services' },
@@ -57,14 +58,7 @@ const Chatbot = () => {
         {keyword: 'about', section: 'About Us'},
         {keyword: 'info', section: 'About Us'}
 
-        /* 
-        Keywords Jesus:
-        Comment, Feedback,Questions, Contact, 
-        Keywords Sam:
-        Services, Information, Resources, About,
-        */
-
-        // Add more keywords and their corresponding sections as needed
+ 
       ];
   
       // Check if the user's input message contains any of the keywords
