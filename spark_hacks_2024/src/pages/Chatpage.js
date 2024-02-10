@@ -123,6 +123,14 @@ const Chatbot = () => {
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
       }
 
+      else if (userMessage.includes("Cultural") && userMessage.toLowerCase().includes("clubs")) {
+        // If the user's message contains a greeting, respond after a delay
+        setTimeout(() => {
+          const sports = "Some of UIC's Cultural Student organizations include AASIA, FIA, VSA, and many more.";
+          addMessage({ text: sports, sender: 'bot', time: getCurrentTime() });
+        }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
+      }
+
 
        else {
         // If no keyword or greeting is matched, handle other messages
