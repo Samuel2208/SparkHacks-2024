@@ -115,7 +115,7 @@ const Chatbot = () => {
       }
 
 
-      else if (userMessage.toLowerCase().includes("CS") && userMessage.toLowerCase().includes("Clubs")) {
+      else if (userMessage.includes("CS") && userMessage.toLowerCase().includes("clubs")) {
         // If the user's message contains a greeting, respond after a delay
         setTimeout(() => {
           const sports = "Some of UIC's Computer Science organizations include ACM, LUG, SHPE, and WICS.";
