@@ -90,7 +90,7 @@ const Chatbot = () => {
           addMessage({ text: signupMessage, sender: 'bot', time: getCurrentTime() });
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
       } 
-      else if (userMessage.toLowerCase().includes('what is this')) {
+      else if (userMessage.toLowerCase().includes('this')) {
         // If the user's message contains a greeting, respond after a delay
         setTimeout(() => {
           const purposeMessage = "The purpose of this chatbot is to assist with navigating the site and to set up appointments to meet with mentors/advisors. ";
