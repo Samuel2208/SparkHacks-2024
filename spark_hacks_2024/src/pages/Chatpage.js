@@ -106,6 +106,14 @@ const Chatbot = () => {
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
       } 
 
+      else if (userMessage.toLowerCase().includes('quiet')) {
+        // If the user's message contains a greeting, respond after a delay
+        setTimeout(() => {
+          const sports = "An example of a quiet place to study is the Richard Daley Library. I prefer the 3rd and 4th floor as they are the quiet zones.";
+          addMessage({ text: sports, sender: 'bot', time: getCurrentTime() });
+        }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
+      }
+
        else {
         // If no keyword or greeting is matched, handle other messages
         handleOtherMessages();
