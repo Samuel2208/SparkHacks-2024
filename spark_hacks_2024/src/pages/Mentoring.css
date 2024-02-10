@@ -1,0 +1,42 @@
+/* Mentoring section styles */
+.mentoring {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+    background-image: url('./images/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    padding: 50px 0; /* Add padding for spacing */
+  }
+  
+  /* Centering text */
+  .mentoring-container {
+    text-align: center;
+  }
+  
+  /* Styling for the "Mentoring" heading */
+  .mentoring-heading {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    color: #fff; /* Set text color to white */
+  }
+  
+  /* Styling for the paragraph */
+  .mentoring-paragraph {
+    font-size: 0.9rem; /* Adjust the font size as needed */
+    display: block; /* Ensure the paragraph appears as a block element */
+    margin: 20px auto; /* Center the paragraph horizontally with some margin */
+    width: 80%; /* Set the width of the paragraph */
+    color: #fff; /* Set text color to white */
+  }
+  
+  /* Styling for mentorship links */
+  .mentorship-link {
+    color: #fff; /* Set link color to white */
+  }
+  
+  
+  

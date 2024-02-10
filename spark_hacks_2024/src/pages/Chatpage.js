@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Chatpage.css'; // Import CSS file for styling
 
+
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [isOpen, setIsOpen] = useState(true);
