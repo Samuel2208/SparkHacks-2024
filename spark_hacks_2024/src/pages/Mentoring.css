@@ -1,18 +1,5 @@
 /* Mentoring section styles */
-.mentoring {
-    display: flex;
-    flex-direction: column; /* Align items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center;
-    background-image: url('./images/Contact-Page.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-    padding: 50px 0; /* Add padding for spacing */
-  }
-  
+
   /* Centering text */
   .mentoring-container {
     text-align: center;
@@ -35,6 +22,7 @@
   
   /* Styling for mentorship links */
   .mentorship-link {
+    font-size: medium;
     color: #fff; /* Set link color to white */
   }
   

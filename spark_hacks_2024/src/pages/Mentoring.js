@@ -1,13 +1,10 @@
 import React from 'react';
 import '../App.css';
+import './Mentoring.css'
 
 function Mentoring() {
   return (
     <div className="mentoring">
-      <video className="video-background" autoPlay muted loop>
-        <source src="flickeringstar.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
 
       <div className="mentoring-container">
         <h2 className="mentoring-heading">Mentoring</h2>
