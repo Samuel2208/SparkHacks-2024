@@ -101,7 +101,7 @@ const Chatbot = () => {
       else if (userMessage.toLowerCase().includes('sports')) {
         // If the user's message contains a greeting, respond after a delay
         setTimeout(() => {
-          const sports = "You can play sports at UIC's Recretation Center on East campus and Student Fitness Center on West Campus.";
+          const sports = "You can play sports at UIC's Recreation Center on East campus and Student Fitness Center on West Campus.";
           addMessage({ text: sports, sender: 'bot', time: getCurrentTime() });
         }, 1000); // Add a delay of 1000 milliseconds (1 second) before the bot responds
       } 
