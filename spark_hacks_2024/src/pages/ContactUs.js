@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import './ContactUs.css'
 import './modal.css'
 import emailjs from '@emailjs/browser';
+import LinkedIn from "../images/LinkedIn.jpg"
 
 function Contact() {
   const [data, setData] = useState({ name: "", email: "", feedback: "" })
@@ -81,10 +82,10 @@ function Contact() {
         </h1>
 
         <h2 id='contentB'>
-          <label>Contact the Team</label>
-          <a href='https://www.linkedin.com/in/victor-escudero56/'>Sam the Goat</a>
-          <a href='https://www.linkedin.com/in/mark-cirineo-65248b175/' target='blank'>Mark the Goat</a>
-          <a href='https://www.linkedin.com/in/jesus-ramirez15/'>Eddie</a>
+          <label id='contactTeamLabel'><img id='logoL' src={LinkedIn}/> Contact the Team</label>
+          <a id='creator' href='https://www.linkedin.com/in/victor-escudero56/'>Sam</a>
+          <a id='creator' href='https://www.linkedin.com/in/mark-cirineo-65248b175/' target='blank'>Mark</a>
+          <a id='creator' href='https://www.linkedin.com/in/jesus-ramirez15/'>Jesus</a>
         </h2>
       </body>
     </div>
