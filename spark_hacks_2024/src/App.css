@@ -7,7 +7,6 @@
 
 .home,
 .events,
-
 .contact-us,
 .mentoring {
   display: flex;
@@ -18,7 +17,7 @@
 }
 
 .home {
-  background-image: url('./images/img-1.jpg');
+  background-image: url('./images/home.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@
 }
 
 .events {
-  background-image: url('./images/img-2.jpg');
+  background-image: url('./images/Events.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

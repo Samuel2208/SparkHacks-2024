@@ -1,0 +1,22 @@
+
+
+#description{
+    font-size: large;
+    /* max-width: 600px; */
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.events {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#descStu{
+    font-size: 3rem;
+    padding:10px;
+}

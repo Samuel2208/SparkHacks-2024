@@ -1,0 +1,29 @@
+
+/* .home-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+} */
+
+#description{
+    font-size: large;
+    /* max-width: 600px; */
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.home {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#descStu{
+    font-size: 3rem;
+    padding:10px;
+}

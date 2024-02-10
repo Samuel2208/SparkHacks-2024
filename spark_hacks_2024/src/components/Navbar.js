@@ -31,7 +31,7 @@ function Navbar(){
         <>
             <nav className='navbar'>
                 <Link to='/' className='navbar-logo'>
-                    Los Tigres  <i className='fab fa-firstdraft'/>
+                    StudentSphere  <i className='fab fa-firstdraft'/>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click?'fas fa-times': 'fas fa-bars'}/>
@@ -46,9 +46,10 @@ function Navbar(){
 
                     <li className='nav-item'
                         onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}
-                    >
-                        <Link to='/Services' className='nav-links' onClick={closeMobileMenu}>
+                        onMouseLeave={onMouseLeave}>
+                        {/* Services
+                        <i className='fas fa-caret-down'/> */}
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Services
                             <i className='fas fa-caret-down'/>
                         </Link>
