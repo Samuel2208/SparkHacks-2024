@@ -1,12 +1,13 @@
 import React from 'react'
 import '../App.css'
+import './Events.css'
 
 function Events() {
   return (
     <div className='events'>
     <h1> 
     <label  id='descStu'>Events</label>
-    <p id='description'>
+    <p id='descriptionE'>
         In this page we will be posting all 
         the major events happening this month 
         on campus grounds and providing extra 
