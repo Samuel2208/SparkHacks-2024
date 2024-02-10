@@ -1,0 +1,61 @@
+#contactPage{
+    background-color: #fffefc;
+  }
+  
+  form{
+    display: block;
+    font-family: monospace;
+    background-color:#201757 ;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 600px;
+    color: #fffefc;
+  }
+  
+  form input,textarea{
+    display: flex;
+    background-color: #e7decc ;
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+  }
+  
+  #messageFeed{
+    font-size: medium;
+    align-items: center;
+  }
+  
+  #contentB{
+    display: flex;
+    margin: 50px;
+    pointer-events: none;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  #submitBtn{
+    background-color: #7260DC;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    align-items: center;
+  }
+  
+  #submitBtn:hover{
+    background-color: aqua;
+  }
+  
+  #submitBtn:active{
+    background-color: aquamarine;
+    transform: translateY(3px);
+  }
